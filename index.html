@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Lyne's CV</title>
 </head>
 <body>
@@ -11,7 +12,7 @@
         divide the cv into 2 parts: a side part for contact skills languagess and hobbies 
         and a body bigger part for objective education experience and projects
     -->
-    <table>
+    <table class="cv">
         <!--
             mainly 5 rows needed to visually organize the items
         -->
@@ -28,7 +29,7 @@
         </tr>
         <tr>
             <td>
-            <h2>Contact</h2>
+            <h2 class="head1">Contact</h2>
             <b>Email:</b>
             <address>
                 <!--a href=mailto will redirect to gmail and -->
@@ -44,7 +45,7 @@
         </tr>
         <tr>
             <td>
-                <h2>Skills:</h2>
+                <h2 class="head1">Skills:</h2>
                 <ul>
                     <li>HTML/CSS/JS</li>
                     <li>PHP</li>
@@ -64,7 +65,7 @@
         </tr>
         <tr>
             <td>
-                <h2>Languages:</h2>
+                <h2 class="head1">Languages:</h2>
                 <ul>
                     <li>
                         <b>Arabic</b>(Native)
@@ -79,7 +80,7 @@
             </td>
             <td>
                 <h2>Education:</h2>
-                <table>
+                <table id="education">
                     <tr>
                         <!--th=td+center+bold-->
                         <th>University/College</th>
@@ -101,7 +102,7 @@
         </tr>
         <tr>
             <td>
-                <h2>Hobbies:</h2>
+                <h2 class="head1">Hobbies:</h2>
                 <ul>
                     <li>Coding</li>
                     <li>Basketball</li>

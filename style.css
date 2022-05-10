@@ -1,0 +1,27 @@
+table.cv tr>td:first-child{
+    background-color: rgba(16, 218, 253, 0.534);
+}
+
+#education tr>td:first-child{
+    background-color: white;
+}
+
+.head1{
+    color: white;
+}
+
+li{
+    margin:20px;
+}
+
+fieldset{
+    padding: 20px;
+    margin:20px;
+}
+button{
+    border-radius: 10px;
+}
+
+input{
+    border-radius: 10px;
+}
