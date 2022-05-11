@@ -25,3 +25,15 @@ button{
 input{
     border-radius: 10px;
 }
+a:link{
+    color: blue;
+}
+a:hover{
+    color:red;
+}
+
+#education tr:hover td{
+    background-color: yellow;
+}
+
+
